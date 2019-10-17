@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RememberDate</string>
+    <string-array name="screen">
+        <item>Add birthday</item>
+        <item>Close Birthday</item>
+        <item>All birthdays</item>
+
+    </string-array>
+    <string name="abrir_menu" />
+    <string name="cerrar_menu" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Write your birthday"
+    android:textSize="45dp"
+    android:gravity="center"
+    android:textColor="@color/colorAccent"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/imagenview"/>
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/imagenview1"/>
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/imagenview2" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:id="@+id/imagenview3" />
+        <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:id="@+id/imagenview4" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/nameEditText"
+        android:layout_margin="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Write your name"
+
+/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/goToCalendarButton"
+        android:layout_margin="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Go to calendar"
+        android:onClick="goToCalendarButton"
+        android:background="#F595B7"
+        />
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/sentDataButton"
+        android:layout_marginTop="23dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="Send"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:background="#D81B60"
+        android:textColor="#E3F2FD"/>
+
+
+</LinearLayout>
